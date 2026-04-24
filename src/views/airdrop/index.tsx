@@ -9,7 +9,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { InputView } from "../index";
 import Branding from "../../components/Branding";
 
-export const AirdropView: FC = ({ setOpenAirdrop }) => {
+export const AirdropView: FC<any> = ({ setOpenAirdrop }) => {
   const wallet = useWallet();
   const { connection } = useConnection();
   const { publicKey } = useWallet();

@@ -31,7 +31,7 @@ import { FC } from "react";
 import CreateSVG from "../../components/SVG/CreateSVG";
 import Branding from "../../components/Branding";
 
-export const CreateView: FC = ({ setOpenCreateModal }) => {
+export const CreateView: FC<any> = ({ setOpenCreateModal }) => {
   const { connection } = useConnection();
   const { publicKey, sendTransaction } = useWallet();
   const { networkConfiguration } = useNetworkConfiguration();

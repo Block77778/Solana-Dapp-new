@@ -5,7 +5,7 @@ import { LuArrowRightFromLine } from "react-icons/lu";
 
 import pkg from "../../../package.json";
 
-export const ToolView: FC = ({
+export const ToolView: FC<any> = ({
   setOpenTokenMetaData,
   setOpenContact,
   setOpenAirdrop,

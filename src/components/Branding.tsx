@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const Branding: FC = ({ image, title, message }) => {
+const Branding: FC<{ image: string; title: string; message: string }> = ({ image, title, message }) => {
   return (
     <div className="ps-4 hidden py-4 lg:block">
       <div className="relative h-full w-full overflow-hidden rounded-xl">

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import pkg from "../../../package.json";
 
-export const FaqView: FC = ({}) => {
+export const FaqView: FC<any> = ({}) => {
   const question = [
     {
       question: " Who are produces sit pleasure?",

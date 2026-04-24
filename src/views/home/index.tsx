@@ -4,7 +4,7 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 import pkg from "../../../package.json";
 
-export const HomeView: FC = ({ setOpenCreateModal }) => {
+export const HomeView: FC<any> = ({ setOpenCreateModal }) => {
   return (
     <section id="home" className="relative overflow-hidden pb-20 pt-[72px]">
       <div className="px-6 py-4">

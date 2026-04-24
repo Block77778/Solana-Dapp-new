@@ -3,7 +3,7 @@ import { FC } from "react";
 //INTERNAL IMPORT
 import { Input } from "../index";
 
-export const InputView: FC = ({ placeholder, name, clickhandle }) => {
+export const InputView: FC<any> = ({ placeholder, name, clickhandle }) => {
   return (
     <div className="mb-4">
       <label

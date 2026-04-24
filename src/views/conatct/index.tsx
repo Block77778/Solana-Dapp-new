@@ -12,7 +12,7 @@ import {
 import { InputView } from "../index";
 import Branding from "../../components/Branding";
 //
-export const ContactView: FC = ({ setOpenContact }) => {
+export const ContactView: FC<any> = ({ setOpenContact }) => {
   //FORM
   const [state, handleSubmit] = useForm("mzbnzpqr");
   if (state.succeeded) {

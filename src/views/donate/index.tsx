@@ -16,7 +16,7 @@ import {
 import { InputView } from "../index";
 import Branding from "../../components/Branding";
 
-export const DonateView: FC = ({ setOpenSendTransaction }) => {
+export const DonateView: FC<any> = ({ setOpenSendTransaction }) => {
   const wallet = useWallet();
   const { connection } = useConnection();
   const { publicKey, sendTransaction } = useWallet();
