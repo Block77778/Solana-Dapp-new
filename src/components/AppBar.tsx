@@ -3,7 +3,8 @@ import Link from "next/link";
 import { LuMenu } from "react-icons/lu";
 import NetworkSwitcher from "./NetworkSwitcher";
 
-export const AppBar: FC = (props) => {
+import { ReactNode } from "react";
+export const AppBar: FC<{children?: ReactNode}> = (props) => {
   const menu = [
     {
       name: "Home",

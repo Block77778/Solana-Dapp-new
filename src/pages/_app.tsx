@@ -3,7 +3,6 @@ import Head from "next/head";
 import { FC } from "react";
 import { ContextProvider } from "../contexts/ContextProvider";
 import { AppBar } from "../components/AppBar";
-import { ContentContainer } from "../components/ContentContainer";
 import { Footer } from "../components/Footer";
 import Notifications from "../components/Notification";
 
